@@ -6,3 +6,4 @@ python-dotenv
 python-jose[cryptography]
 python-multipart
 sqlalchemy
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
